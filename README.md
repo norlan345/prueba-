@@ -1,2 +1,122 @@
-# prueba-
-index.html.
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Preguntas frecuentes sobre nuestro servicio">
+  <title>Preguntas Frecuentes - Tecno Bitácora</title>
+  <style>
+    :root {
+      --primary-color: #2F4F4F;
+      --secondary-color: #6A5ACD;
+      --bg-color: #f9f9f9;
+      --text-color: #333;
+      --font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      margin: 0;
+      font-family: var(--font-family);
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--primary-color);
+      color: #fff;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    h1, h2 {
+      margin-bottom: 1rem;
+    }
+
+    .faq {
+      margin-bottom: 2rem;
+    }
+
+    .faq-item {
+      margin-bottom: 1.5rem;
+    }
+
+    .faq-item h2 {
+      font-size: 1.2rem;
+      color: var(--secondary-color);
+    }
+
+    a {
+      color: var(--secondary-color);
+      text-decoration: underline;
+    }
+
+    a:focus {
+      outline: 2px dashed var(--secondary-color);
+      outline-offset: 2px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: var(--primary-color);
+      color: #fff;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      header, main, footer {
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Preguntas Frecuentes</h1>
+    <p>Encuentra respuestas rápidas sobre nuestro sitio web y servicios</p>
+  </header>
+
+  <main>
+    <section class="faq" aria-label="Sección de preguntas frecuentes">
+      <article class="faq-item">
+        <h2 id="q1">¿Qué es Tecno Bitácora?</h2>
+        <p>Tecno Bitácora es una plataforma que comparte artículos, recursos y novedades sobre tecnología, programación y desarrollo web.</p>
+      </article>
+
+      <article class="faq-item">
+        <h2 id="q2">¿Cómo puedo contactar con soporte?</h2>
+        <p>Puedes enviarnos un correo a <a href="mailto:soporte@tecnobitacora.com">soporte@tecnobitacora.com</a> o visitar la <a href="#q5">sección de contacto</a>.</p>
+      </article>
+
+      <article class="faq-item">
+        <h2 id="q3">¿El contenido es gratuito?</h2>
+        <p>Sí, todo el contenido publicado en Tecno Bitácora es totalmente gratuito y accesible para todos los usuarios.</p>
+      </article>
+
+      <article class="faq-item">
+        <h2 id="q4">¿Puedo colaborar con artículos?</h2>
+        <p>Sí, puedes enviar tus propuestas de artículos a través de nuestro formulario de colaboradores.</p>
+      </article>
+
+      <article class="faq-item">
+        <h2 id="q5">¿Dónde puedo encontrar más información?</h2>
+        <p>Puedes visitar nuestra <a href="https://tecnobitacora.com" target="_blank" rel="noopener noreferrer">página principal</a> o seguirnos en nuestras redes sociales.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Tecno Bitácora. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
